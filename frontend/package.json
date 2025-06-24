@@ -1,3 +1,7 @@
+"scripts": {
+  "start": "serve -s build"
+}
+
 {
   "name": "amazon-frontend",
   "version": "0.1.0",
