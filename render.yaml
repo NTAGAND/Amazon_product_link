@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: amazon-product-linker
+    env: python
+    buildCommand: pip install -r backend/requirements.txt
+    startCommand: python backend/app.py
+    plan: free
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.10
