@@ -1,3 +1,4 @@
+npm install serve --save
 {
   "name": "amazon-frontend",
   "version": "0.1.0",
