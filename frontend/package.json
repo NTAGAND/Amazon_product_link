@@ -10,9 +10,9 @@
     "serve": "^14.2.0"
   },
   "scripts": {
-    "start": "serve -s build",       // Updated for Render
+    "start": "serve -s build",       #Updated for Render
     "build": "react-scripts build",
-    "dev": "react-scripts start",    // Optional: use this for local dev
+    "dev": "react-scripts start",    # Optional: use this for local dev
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   }
