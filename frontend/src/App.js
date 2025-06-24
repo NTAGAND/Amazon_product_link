@@ -8,11 +8,12 @@ function App() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const res = await axios.post("https://amazon-product-link.onrender.com/api/get-links", { url: inputUrl });
-      
+      const res = await axios.post("https://your-backend-url.onrender.com/api/get-links", {
+        url: inputUrl,
+      });
       setResults(res.data.related_links);
     } catch (err) {
-      alert("Error: " + err.response?.data?.error || "Unknown error");
+      alert("Error: " + (err.response?.data?.error || "Unknown error"));
     }
   };
 
